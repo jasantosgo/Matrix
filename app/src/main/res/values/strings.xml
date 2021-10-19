@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Matrix</string>
+    <string name="nombre">Bienvenido, ¿cuál es tu nombre?</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="lblOferta">Vengo a contarte toda la verdad, debes realizar una elección:</string>
+    <string name="opc_azul">Pastilla azul</string>
+    <string name="opc_roja">Pastilla roja</string>
+    <string name="tomar">Tomar la pastilla</string>
+    <string name="salir">Salir</string>
+    <string name="txtNombre">Introduce tu nombre…</string>
+    <string name="Seguro">¿Estás seguro?</string>
+    <string name="Relfexiona">Reflexiona...</string>
+</resources>

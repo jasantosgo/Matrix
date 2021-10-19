@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lytContenedorSaludo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtSaludo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txtOferta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lblOferta" />
+
+    <RadioGroup
+        android:id="@+id/rgPastilla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:checkedButton="@id/rbRoja"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbRoja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:allowUndo="false"
+            android:onClick="onRBSeleccionado"
+            android:text="@string/opc_roja" />
+
+        <RadioButton
+            android:id="@+id/rbAzul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRBSeleccionado"
+            android:text="@string/opc_azul" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txtEleccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Relfexiona" />
+
+    <Button
+        android:id="@+id/btnTomar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:onClick="mostrarFinal"
+        android:text="@string/tomar" />
+
+</LinearLayout>
