@@ -44,8 +44,6 @@ class EleccionActivity : AppCompatActivity() {
             println("botón de aceptar pulsado.")
             mostrarFinal(esteBoton)
         }
-        btnTomar.isClickable=false
-        btnTomar.isActivated=false
         eleccionTomada="roja"
     }
 
